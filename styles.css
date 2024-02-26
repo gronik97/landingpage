@@ -132,7 +132,7 @@ h2 {
     width: 200px;
     height: auto;
     border-radius: 5px;
-    border: 2px solid #3883f6;
+    border: 2px solid #3882f6;
 }
 
 .text-project1, .text-project2, .text-project3, .text-project4 {
@@ -170,3 +170,41 @@ h2 {
 #quote {
     background-color: #E5E7EB;
 }
+
+/*signup-section*/
+.signup-container {
+    background-color: #3882f6;
+    display: flex;
+    color: #E5E7EB;
+    align-items: center;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 100px;
+    border-radius: 10px;
+    height: 120px;
+}
+
+.signup-head {
+    font-size: 20px;
+    margin-left: 40px;
+    margin-bottom: 5px;
+    font-weight: bold;
+
+}
+
+.signup-button {
+    background-color: #3882f6;
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+    width: 100px;
+    border: 1px solid #f9faf8;
+    margin-left: auto;
+    margin-right: 40px;
+}
+
+.signup-sub {
+    margin-left: 40px;
+}
+
+/*footer'/
