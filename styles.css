@@ -2,12 +2,14 @@ html {
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
     margin: 0;
 }
 
+/*menu-section at the top of the page*/
 .header-menu {
     background-color: #1f2937;
     color: white;
@@ -18,7 +20,7 @@ body {
 ul {
     list-style: none;
     padding: 0;
-    margin: 0 200px;
+    margin: 0 400px;
 }
 
 .right-links {
@@ -33,16 +35,25 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: #A4A4A4;
+}
+
 .logo {
     font-size: 24px;
     color: #f9faf8;
-    margin: 0 0 0 200px;
+    margin: 0 0 0 400px;
     margin-top: 20px;
 }
 
+/*hero-section*/
 .main-text {
     display: flex;
-    margin: 90px 0 0 200px;
+    margin: 90px 0 0 400px;
     max-width: 450px;
     font-size: 48px;
     font-weight: bolder;
@@ -53,7 +64,7 @@ a {
     display: flex;
     align-items: flex-end;
     height: fit-content;
-    margin: 20px 0 0 200px;
+    margin: 20px 0 0 400px;
     font-size: 18px;
     color: #E5E7EB;
     max-width: 500px;
@@ -71,16 +82,17 @@ a {
     display: flex;
     background-color: #1f2937;
     flex-direction: row;
-    margin: 200px 200px 100px auto;
+    margin: 200px 400px 100px auto;
 }
 
 .hero-image img {
     width: 400px;
     height: auto;
+    border-radius: 10px;
 }
 
 .hero-button {
-    margin-left: 200px;
+    margin-left: 400px;
     margin-top: 20px;
     background-color: #3883f6;
     border-radius: 5px;
@@ -96,4 +108,36 @@ button:hover {
 
 .text-left {
     margin-top: 200px;
+}
+
+button:active {
+    background-color: #437bd4;
+}
+
+/*projects-section*/
+h2 {
+    text-align: center;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.projects-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 80px 400px 0 400px;
+
+}
+
+.project1 img, .project2 img, .project3 img, .project4 img {
+    width: 200px;
+    height: auto;
+    border-radius: 5px;
+    border: 2px solid #3883f6;
+}
+
+.text-project1, .text-project2, .text-project3, .text-project4 {
+   max-width: 200px;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 15px;
 }
