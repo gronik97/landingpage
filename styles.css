@@ -24,6 +24,7 @@ ul {
 .right-links {
     display: flex;
     gap: 30px;
+    margin-top: 20px;
 }
 
 a {
@@ -36,11 +37,13 @@ a {
     font-size: 24px;
     color: #f9faf8;
     margin: 0 0 0 200px;
+    margin-top: 20px;
 }
 
 .main-text {
     display: flex;
     margin: 90px 0 0 200px;
+    max-width: 450px;
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
@@ -50,11 +53,47 @@ a {
     display: flex;
     align-items: flex-end;
     height: fit-content;
+    margin: 20px 0 0 200px;
+    font-size: 18px;
+    color: #E5E7EB;
+    max-width: 500px;
 }
 
 .hero {
     background-color: #1f2937;
     color: white;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.hero-image {
+    display: flex;
+    background-color: #1f2937;
+    flex-direction: row;
+    margin: 200px 200px 100px auto;
+}
+
+.hero-image img {
+    width: 400px;
+    height: auto;
+}
+
+.hero-button {
+    margin-left: 200px;
+    margin-top: 20px;
+    background-color: #3883f6;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    padding: 5px;
+    width: 100px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.text-left {
+    margin-top: 200px;
 }
