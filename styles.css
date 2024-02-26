@@ -1,0 +1,60 @@
+html {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.header-menu {
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 200px;
+}
+
+.right-links {
+    display: flex;
+    gap: 30px;
+}
+
+a {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    margin: 0 0 0 200px;
+}
+
+.main-text {
+    display: flex;
+    margin: 90px 0 0 200px;
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.sub-text {
+    display: flex;
+    align-items: flex-end;
+    height: fit-content;
+}
+
+.hero {
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    align-items: center;
+}
